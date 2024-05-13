@@ -1,0 +1,89 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+
+header{
+    background-color: black;
+    color: #fff;
+    padding: 55px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Passion One' , cursive;
+
+}
+
+header > h1{
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    font-weight: bolder;
+    padding: 0;
+    margin-top: 0px;
+}
+
+ a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+main{
+    text-align: left;
+    font-family: 'Sriracha' , cursive;
+    font-size: 3.5vw;
+    
+}
+
+main > p{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.back{
+    box-shadow: inset 0px 10px 20px  rgba(0, 0, 0, 0.4);
+}
+
+.back > p {
+    color: #fff;
+    padding-left: 25px;
+    background-color: rgba(0, 0, 0, 0.458);
+    border-radius: 5px;
+    max-width: 50vw;
+    max-height: 100vh; 
+}
+#back1{
+    background: rgb(255, 255, 255) url(imagens/background001.jpg) center center no-repeat fixed; 
+    background-size: cover;
+    padding: 50px 50px 50px 5px;
+}
+
+#back2{
+    background: rgb(255, 255, 255) url(imagens/background002.jpg) center center no-repeat fixed; 
+    background-size: cover;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
